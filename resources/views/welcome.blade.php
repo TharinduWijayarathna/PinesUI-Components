@@ -16,6 +16,29 @@
 
         <x-banner />
 
+        <x-alert
+        type="success"
+        headline="Operation Successful"
+        message="Your data has been saved successfully."
+    />
+
+    <x-alert
+        type="error"
+        headline="Error Occurred"
+        message="Something went wrong. Please try again."
+    />
+
+    <x-alert
+        type="warning"
+        headline="Warning"
+        message="Please ensure all fields are filled correctly."
+    />
+
+    <x-alert
+        type="info"
+        headline="Information"
+        message="This is an informational message."
+    />
 
     </div>
 </body>
