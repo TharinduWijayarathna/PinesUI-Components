@@ -40,6 +40,16 @@
         message="This is an informational message."
     />
 
+
+    <x-badge type="blue" label="Blue Badge" />
+<x-badge type="gray" label="Gray Badge" />
+<x-badge type="red" label="Red Badge" />
+<x-badge type="green" label="Green Badge" />
+<x-badge type="yellow" label="Yellow Badge" />
+<x-badge type="indigo" label="Indigo Badge" />
+<x-badge type="purple" label="Purple Badge" />
+<x-badge type="pink" label="Pink Badge" />
+
     </div>
 </body>
 </html>
