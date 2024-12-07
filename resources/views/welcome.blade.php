@@ -14,41 +14,15 @@
 <body class="flex items-start justify-center h-full bg-gray-50">
     <div class="flex items-center justify-center w-full max-w-full">
 
-        <x-banner />
+        <x-notice
+    title="Cookie Notice"
+    message="We use cookies to make your online experience better. By continuing to browse, you give us your digital consent."
+    icon="https://cdn-icons-png.flaticon.com/512/9004/9004938.png"
+    denyText="Deny Cookies"
+    acceptText="Accept Cookies"
+    :delay="500"
+/>
 
-        <x-alert
-        type="success"
-        headline="Operation Successful"
-        message="Your data has been saved successfully."
-    />
-
-    <x-alert
-        type="error"
-        headline="Error Occurred"
-        message="Something went wrong. Please try again."
-    />
-
-    <x-alert
-        type="warning"
-        headline="Warning"
-        message="Please ensure all fields are filled correctly."
-    />
-
-    <x-alert
-        type="info"
-        headline="Information"
-        message="This is an informational message."
-    />
-
-
-    <x-badge type="blue" label="Blue Badge" />
-<x-badge type="gray" label="Gray Badge" />
-<x-badge type="red" label="Red Badge" />
-<x-badge type="green" label="Green Badge" />
-<x-badge type="yellow" label="Yellow Badge" />
-<x-badge type="indigo" label="Indigo Badge" />
-<x-badge type="purple" label="Purple Badge" />
-<x-badge type="pink" label="Pink Badge" />
 
     </div>
 </body>
