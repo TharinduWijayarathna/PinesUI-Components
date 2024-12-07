@@ -14,13 +14,8 @@
 <body class="flex items-start justify-center h-full bg-gray-50">
     <div class="flex items-center justify-center w-full max-w-full">
 
+        <x-banner />
 
-        <x-date-picker
-        name="appointment_date"
-        label="Appointment Date"
-        value="{{ old('appointment_date', $appointment->date ?? '') }}"
-        format="YYYY-MM-DD"
-    />
 
     </div>
 </body>
