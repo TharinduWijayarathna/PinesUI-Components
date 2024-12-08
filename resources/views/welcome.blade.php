@@ -36,6 +36,20 @@
 
         <x-breadcrumb :breadcrumbs="$breadcrumbs" />
 
+        <x-button>Default</x-button>
+
+        <x-button size="sm">Small Button</x-button>
+<x-button size="md">Medium Button</x-button>
+<x-button size="lg">Large Button</x-button>
+
+
+
+        <x-button color="blue">Blue Button</x-button>
+<x-button color="red">Red Button</x-button>
+<x-button color="green">Green Button</x-button>
+<x-button color="yellow">Yellow Button</x-button>
+<x-button color="white">Neutral Button</x-button>
+
 
 
     </div>
